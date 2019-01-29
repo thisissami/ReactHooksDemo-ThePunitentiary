@@ -24,7 +24,7 @@ export const subscribeToThePunitentiary = (onNewPun) => {
   subscription = setInterval(() => {
     index++;
     if (index >= puns.length) {
-      onNewPun('Sami Majadla // sami@rubikon.io');
+      onNewPun('Sami Majadla // sami AT rubikon DOT io');
     } else {
       onNewPun(puns[index]);
     }

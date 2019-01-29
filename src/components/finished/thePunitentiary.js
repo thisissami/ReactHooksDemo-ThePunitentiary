@@ -4,6 +4,16 @@ import { useCurrentPun } from '../../hooks/useCurrentPun';
 import { usePuns } from '../../hooks/usePuns';
 
 const ThePunitentiary = () => {
+  /*
+
+  CHALLENGE
+
+  Update the "usePuns" custom hook so that every time a new pun is added,
+  the page scrolls to the bottom - ensuring that the latest pun is visible
+  in the window.
+
+  */
+
   const puns = usePuns();
 
   // custom hook for current puns!
