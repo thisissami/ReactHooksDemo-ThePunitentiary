@@ -7,6 +7,10 @@ const ThePunderdome = () => {
   // grab the puns
   const puns = getGoodPuns_Sync();
 
+  // when you click on a pun, display it as bold
+
+  // when you click on a pun, change the document title to be the pun
+
   // display them!
   return (
     <>

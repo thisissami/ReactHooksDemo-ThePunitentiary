@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Link, Route } from 'react-router-dom';
 import ThePunderdome from './components/thePunderdome';
-// import ThePunitentiary from './components/thePunitentiary';
-import ThePunitentiary from './components/finished/thePunitentiary';
+import ThePunitentiary from './components/thePunitentiary';
+// import ThePunitentiary from './components/finished/thePunitentiary';
 import logo from './logo.svg';
 import './App.css';
 

@@ -1,7 +1,11 @@
 import React from 'react';
 import PunList from './finished/punList';
 import { useCurrentPun } from '../hooks/useCurrentPun';
-import { getGoodPuns_Sync } from '../apis/thePunApi';
+import {
+  getGoodPuns_Sync,
+  subscribeToThePunitentiary,
+  unsubscribeFromAll
+} from '../apis/thePunApi';
 
 const ThePunitentiary = () => {
   // grab the puns
