@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import {
   getGoodPuns_Sync,
   subscribeToThePunitentiary,
-  unsubscribeFromAll
+  unsubscribeFromThePunitentiary
 } from '../apis/thePunApi';
 
 export const usePuns = () => {
@@ -19,7 +19,7 @@ export const usePuns = () => {
   useEffect(() => {
     subscribeToThePunitentiary(handleNewPun);
     return () => {
-      unsubscribeFromAll();
+      unsubscribeFromThePunitentiary();
     }
   })
 

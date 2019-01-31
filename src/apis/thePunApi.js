@@ -31,6 +31,6 @@ export const subscribeToThePunitentiary = (onNewPun) => {
   }, 4000)
 };
 
-export const unsubscribeFromAll = () => {
+export const unsubscribeFromThePunitentiary = () => {
   clearInterval(subscription);
 };
